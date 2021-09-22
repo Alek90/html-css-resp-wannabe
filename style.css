@@ -93,9 +93,13 @@ img {
    font-size: 1.7rem;
   }
   
-  /* BLOCCHI LEZIONI E PERCHE COLORATI */
+  /* DATO COLORE ALLO SFONDO DEI BLOCCHI */
   .row:not(#steps .row){
     background-color: rgb(242, 242, 205);
+  }
+
+  #steps .row{
+    background-color: white;
   }
 
   /* ADATTAMENTO DIMENSIONE RIGHE CHE ERANO FLOTTANTI */
